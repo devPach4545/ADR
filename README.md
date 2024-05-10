@@ -1,15 +1,14 @@
-# Deciding frameworks
+# Decided to implement offline version of dev journal and wrap with Electron JS
 
 ## Context and Problem Statement
+We were discussing if we want to make our application such that it can be accessed both online and offline. We also knew that we could only use HTML, CSS, and JS to keep it as minmul with frameworks. So, we figured that using fancy stacks won't be helpful. Prof Powell mentioned in the class that Electron JS could be used to make a desktop app with the permission from a TA. 
 
-We needed to decide on the technology stack for developing our application, we can only use HTML, CSS, And JS to make our application as minimal but efficient as possible. 
-We were thinking about 
 
 ## Decision Drivers
+- We only have 5 weeks, we were not sure if implementing an online version is possible
+- Nobody had experience with user authentication and other requirements needed to make an online dev journal
+- We wanted to implement local first and then go online if time permits
 
-* Complexity of implementing an online solution
-* Concerns about data privacy and security
-* Utilizing the team lead's expertise in Electron JS
 
 ## Considered Options
 
@@ -19,4 +18,4 @@ We were thinking about
 
 ## Decision Outcome
 
-Chosen option: "Offline desktop app using Electron JS," because it addresses our concerns about data privacy and security, leverages the team lead's expertise, and provides the desired offline functionality without the complexity of developing an online solution.
+Chosen option: "Offline desktop app using Electron JS" 
